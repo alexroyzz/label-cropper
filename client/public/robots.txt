@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO(SEO): replace REPLACE-WITH-YOUR-DOMAIN.com with your real production domain
+Sitemap: https://REPLACE-WITH-YOUR-DOMAIN.com/sitemap.xml
