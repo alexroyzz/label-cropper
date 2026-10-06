@@ -50,7 +50,7 @@ export default function App() {
     <main>
       <header>
         <h1>Free Online Shipping Label Cropper</h1>
-        <p>Crop Flipkart and Meesho shipping label PDFs for 4x6 thermal printing. Your PDFs are processed locally in your browser. They are not uploaded to a server.</p>
+        <p>Crop Flipkart and Meesho shipping label PDFs. Your PDFs are processed locally in your browser. They are not uploaded to a server.</p>
       </header>
 
       <div className="platforms" role="radiogroup" aria-label="Platform">
