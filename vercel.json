@@ -1,0 +1,27 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/meesho-label-cropper",
+      "destination": "/meesho-label-cropper/index.html"
+    },
+    {
+      "source": "/flipkart-label-cropper",
+      "destination": "/flipkart-label-cropper/index.html"
+    },
+    {
+      "source": "/how-to-crop-shipping-labels",
+      "destination": "/how-to-crop-shipping-labels/index.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/:slug",
+      "destination": "/blog/:slug/index.html"
+    }
+  ]
+}
