@@ -52,6 +52,7 @@ function withPageMetadata(template, page) {
   const socialDescription = page.ogDescription || page.description;
   let html = template.replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeHtml(page.title)}</title>`);
   html = replaceMeta(html, 'name', 'description', page.description);
+  html = replaceMeta(html, 'property', 'og:type', page.post ? 'article' : 'website');
   html = replaceMeta(html, 'property', 'og:title', socialTitle);
   html = replaceMeta(html, 'property', 'og:description', socialDescription);
   html = replaceMeta(html, 'property', 'og:url', page.canonical);
