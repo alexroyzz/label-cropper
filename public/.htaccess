@@ -21,6 +21,10 @@ DirectoryIndex index.html
   RewriteRule ^(.+?)/?$ /$1/index.html [L]
 </IfModule>
 
+<IfModule mod_mime.c>
+  AddType application/javascript .mjs
+</IfModule>
+
 # Unknown URLs return a real 404 status but still show the app shell.
 # For a client-only SPA route in future, replace with: FallbackResource /index.html
 ErrorDocument 404 /index.html

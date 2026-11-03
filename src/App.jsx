@@ -174,6 +174,7 @@ export default function App({
       setResult(res);
       setShowPreview(true);
     } catch (e) {
+      console.error("Failed to crop shipping label PDFs:", e);
       setError(
         "Could not read this PDF. Check that it is an unlocked label PDF for the platform you selected.",
       );
