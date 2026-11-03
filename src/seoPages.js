@@ -11,6 +11,8 @@ export const SEO_PAGES = {
     platform: 'flipkart',
     title: 'Free Shipping Label Cropper for Meesho & Flipkart',
     description: 'Free online shipping label cropper for Meesho & Flipkart sellers. Crop PDF labels for 4x6 thermal printing in your browser. No signup, no upload.',
+    ogTitle: 'LabelCrop – Free Meesho & Flipkart Label Cropper',
+    ogDescription: 'Free online Meesho and Flipkart shipping label cropper. Crop shipping label PDFs into 4x6 thermal printer format.',
     canonical: `${ORIGIN}/`,
     h1: 'Free Shipping Label Cropper for Meesho & Flipkart',
     intro: 'Crop shipping label PDFs online, preview the result, and download a print-ready PDF. Meesho and Flipkart labels are detected automatically, with an adjustable crop area when you need it. Your files are processed on your device and never uploaded.',

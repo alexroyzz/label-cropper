@@ -12,6 +12,7 @@ const indexTemplate = await readFile(resolve(dist, 'index.html'), 'utf8');
 const vite = await createServer({
   configFile: resolve(root, 'vite.config.js'),
   root,
+  optimizeDeps: { noDiscovery: true, include: [] },
   server: { middlewareMode: true },
   appType: 'custom',
 });
@@ -30,14 +31,32 @@ function replaceMeta(html, attribute, key, value) {
   return `${html.slice(0, contentStart)}${escapeHtml(value)}${html.slice(contentEnd)}`;
 }
 
+function clearRootContent(html) {
+  const rootStart = html.indexOf('<div id="root">');
+  if (rootStart < 0) throw new Error('Could not find the React root element');
+  const contentStart = rootStart + '<div id="root">'.length;
+  const divTags = /<\/?div\b[^>]*>/gi;
+  divTags.lastIndex = contentStart;
+  let depth = 1;
+  let match;
+  while ((match = divTags.exec(html))) {
+    if (match[0].startsWith('</')) depth -= 1;
+    else if (!match[0].endsWith('/>')) depth += 1;
+    if (depth === 0) return `${html.slice(0, contentStart)}${html.slice(match.index)}`;
+  }
+  throw new Error('Could not find the end of the React root element');
+}
+
 function withPageMetadata(template, page) {
+  const socialTitle = page.ogTitle || page.title;
+  const socialDescription = page.ogDescription || page.description;
   let html = template.replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeHtml(page.title)}</title>`);
   html = replaceMeta(html, 'name', 'description', page.description);
-  html = replaceMeta(html, 'property', 'og:title', page.title);
-  html = replaceMeta(html, 'property', 'og:description', page.description);
+  html = replaceMeta(html, 'property', 'og:title', socialTitle);
+  html = replaceMeta(html, 'property', 'og:description', socialDescription);
   html = replaceMeta(html, 'property', 'og:url', page.canonical);
-  html = replaceMeta(html, 'name', 'twitter:title', page.title);
-  html = replaceMeta(html, 'name', 'twitter:description', page.description);
+  html = replaceMeta(html, 'name', 'twitter:title', socialTitle);
+  html = replaceMeta(html, 'name', 'twitter:description', socialDescription);
   html = html.replace(/<link rel="canonical" href="[^"]*"\s*\/>/, `<link rel="canonical" href="${escapeHtml(page.canonical)}" />`);
   html = html.replace(/<html lang="[^"]*"/, `<html lang="${escapeHtml(page.lang || 'en')}"${page.dir === 'rtl' ? ' dir="rtl"' : ''}`);
   if (page.locale) html = replaceMeta(html, 'property', 'og:locale', page.locale);
@@ -51,9 +70,10 @@ function withPageMetadata(template, page) {
 
 try {
   const { render } = await vite.ssrLoadModule('/src/entry-server.jsx');
+  const pageTemplate = clearRootContent(indexTemplate);
   for (const [pathname, page] of Object.entries(SEO_PAGES)) {
     const rendered = render(pathname);
-    const html = withPageMetadata(indexTemplate, page).replace('<div id="root"></div>', `<div id="root">${rendered}</div>`);
+    const html = withPageMetadata(pageTemplate, page).replace('<div id="root"></div>', () => `<div id="root">${rendered}</div>`);
     if (!html.includes(rendered)) throw new Error(`Could not render the ${pathname} route`);
     const output = pathname === '/' ? resolve(dist, 'index.html') : resolve(dist, pathname.slice(1), 'index.html');
     await mkdir(dirname(output), { recursive: true });
