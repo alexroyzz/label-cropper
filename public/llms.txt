@@ -1,0 +1,48 @@
+# Label Cropper
+
+> Free, browser-based shipping label cropper for Meesho and Flipkart sellers. Crops label PDFs for 4x6 thermal printing, groups labels by SKU and copies a SKU picklist. PDFs are processed locally in the browser and are never uploaded.
+
+Site: https://croplabelfree.online/
+
+## Tools
+- [Label Cropper (home)](https://croplabelfree.online/): Free online shipping label cropper for Meesho & Flipkart sellers. Crop PDF labels for 4x6 thermal printing in your browser. No signup, no upload.
+- [Meesho label cropper](https://croplabelfree.online/meesho-label-cropper): Free Meesho shipping label cropper. Crop Meesho seller label PDFs for 4x6 thermal printing, sort by SKU and copy a picklist. No signup, runs in your browser.
+- [Flipkart label cropper](https://croplabelfree.online/flipkart-label-cropper): Free Flipkart shipping label cropper and sort tool. Crop Flipkart order PDFs into thermal-ready labels, group by SKU and copy a picklist. Private, no signup.
+
+## Guides
+- [How to crop a shipping label PDF online](https://croplabelfree.online/how-to-crop-shipping-labels): A practical guide to cropping Meesho or Flipkart shipping label PDFs, checking the crop, and printing the result on a 4x6 thermal printer.
+- [Shipping label guides (blog index)](https://croplabelfree.online/blog)
+- [How to Crop a Meesho Shipping Label PDF (Step by Step)](https://croplabelfree.online/blog/how-to-crop-meesho-shipping-label-pdf): Crop a Meesho shipping label PDF in your browser: upload the file, check the detected crop, preview the result and download a print-ready PDF.
+- [How to Crop Flipkart Shipping Label PDFs Without Cutting Off Details](https://croplabelfree.online/blog/how-to-crop-flipkart-shipping-label-pdf): Crop Flipkart shipping label PDFs online: check label boundaries, adjust margins manually when needed, and verify the output before printing.
+- [Printing Shipping Labels on a 4×6 Thermal Printer (100×150 mm)](https://croplabelfree.online/blog/print-shipping-labels-on-4x6-thermal-printer): Set up a 4x6 thermal printer for shipping labels: choose the right paper size, set scaling to 100%, remove margins and test the first label.
+- [How to Print Shipping Labels on A4 Paper](https://croplabelfree.online/blog/how-to-print-shipping-labels-on-a4-paper): When an ordinary A4 printer is enough for shipping labels, which print settings to use, and what to know about printing several labels on one sheet.
+- [Shipping Label Not Scanning, Too Small or Cut Off? How to Fix It](https://croplabelfree.online/blog/how-to-fix-shipping-label-printing-problems): Troubleshoot shipping label barcodes that will not scan, labels that print too small, and labels cut off at the edges, with practical checks in order.
+- [Shipping Label PDF Privacy: Protecting Customer Addresses and Phone Numbers](https://croplabelfree.online/blog/shipping-label-pdf-privacy-and-security): Shipping label PDFs contain customer names, addresses and phone numbers. Learn how to handle them safely and how browser-based cropping works.
+- [Free Meesho Label Cropper Online: What It Does and What It Does Not](https://croplabelfree.online/blog/meesho-label-cropper-guide): A plain guide to the free Meesho label cropper: what it crops, how SKU grouping works, and the limits to know before you print, such as no exact 4x6 resize.
+- [How to Convert a Meesho PDF Label Into 4x6 Format](https://croplabelfree.online/blog/meesho-pdf-to-4x6-label): Crop a Meesho label PDF, then print it on 4x6 (100x150 mm) stock. Learn what size the cropped label has, how the invoice stays out of view, and what to test first.
+- [How to Crop Multiple Meesho Shipping Labels at Once](https://croplabelfree.online/blog/meesho-bulk-label-cropping): Crop many Meesho labels in one run: add several PDFs, merge them into one cropped PDF, optionally group by SKU, plus notes on getting the labels from Meesho.
+- [Free Flipkart Label Crop and Sort Tool Online: How It Works](https://croplabelfree.online/blog/flipkart-label-cropper-guide): How the free Flipkart label cropper crops label PDFs and sorts them by SKU, what the picklist contains, and what the tool cannot sort or resize.
+- [How to Convert a Flipkart Shipping Label PDF Into 4x6](https://croplabelfree.online/blog/flipkart-pdf-to-4x6-label): Crop a Flipkart label PDF and print it on 4x6 (100x150 mm) stock. Learn the cropped label size, why the invoice does not show and which print checks to run.
+- [How to Print Flipkart Labels on a Thermal Printer](https://croplabelfree.online/blog/flipkart-thermal-printer-guide): Print cropped Flipkart labels on a 4x6 thermal printer: paper size, margins, scaling and the one-label test to run before printing a whole batch.
+- [How to Crop Multiple Flipkart Shipping Labels Together](https://croplabelfree.online/blog/flipkart-bulk-label-cropping): Crop many Flipkart labels in one run: add several PDFs, merge them into a single cropped PDF and optionally group the labels by SKU.
+- [How to Crop a Shipping Label PDF Without Losing Barcode Quality](https://croplabelfree.online/blog/shipping-label-barcode-quality): How to keep barcodes sharp when cropping and printing shipping labels, and what to check when a Meesho label looks blurry or a Flipkart barcode will not scan.
+- [What Is the Best 4x6 Shipping Label Cropper for Thermal Printers?](https://croplabelfree.online/blog/4x6-thermal-label-cropper-guide): What to look for in a 4x6 shipping label cropper for thermal printers, and where Label Cropper fits for Meesho and Flipkart sellers, including what it cannot do.
+
+## Guides in other languages
+- [Shipping Label Cropper Guides (Hinglish)](https://croplabelfree.online/blog/hinglish)
+- [शिपिंग लेबल क्रॉपर गाइड (हिन्दी)](https://croplabelfree.online/blog/hi)
+- [শিপিং লেবেল ক্রপার গাইড (বাংলা)](https://croplabelfree.online/blog/bn)
+- [शिपिंग लेबल क्रॉपर मार्गदर्शक (मराठी)](https://croplabelfree.online/blog/mr)
+- [షిప్పింగ్ లేబుల్ క్రాపర్ గైడ్‌లు (తెలుగు)](https://croplabelfree.online/blog/te)
+- [ஷிப்பிங் லேபிள் க்ராப்பர் வழிகாட்டிகள் (தமிழ்)](https://croplabelfree.online/blog/ta)
+- [શિપિંગ લેબલ ક્રોપર માર્ગદર્શિકાઓ (ગુજરાતી)](https://croplabelfree.online/blog/gu)
+- [ಶಿಪ್ಪಿಂಗ್ ಲೇಬಲ್ ಕ್ರಾಪರ್ ಮಾರ್ಗದರ್ಶಿಗಳು (ಕನ್ನಡ)](https://croplabelfree.online/blog/kn)
+- [ഷിപ്പിംഗ് ലേബൽ ക്രോപ്പർ ഗൈഡുകൾ (മലയാളം)](https://croplabelfree.online/blog/ml)
+- [ਸ਼ਿਪਿੰਗ ਲੇਬਲ ਕ੍ਰੌਪਰ ਗਾਈਡਾਂ (ਪੰਜਾਬੀ)](https://croplabelfree.online/blog/pa)
+- [ସିପିଂ ଲେବଲ୍ କ୍ରପର୍ ଗାଇଡ୍ (ଓଡ଼ିଆ)](https://croplabelfree.online/blog/or)
+- [শ্বিপিং লেবেল ক্ৰপাৰ গাইড (অসমীয়া)](https://croplabelfree.online/blog/as)
+- [شپنگ لیبل کراپر گائیڈز (اردو)](https://croplabelfree.online/blog/ur)
+
+## Optional
+- [Sitemap](https://croplabelfree.online/sitemap.xml)
+- [Full content for AI agents](https://croplabelfree.online/llms-full.txt)

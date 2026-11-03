@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { createServer } from 'vite';
 import { SEO_PAGES } from './src/seoPages.js';
 import { serializeSeoSchema } from './src/seoSchema.js';
+import { ORIGIN } from './src/site.js';
 
 const root = resolve(fileURLToPath(new URL('.', import.meta.url)));
 const dist = resolve(root, 'dist');
@@ -38,6 +39,12 @@ function withPageMetadata(template, page) {
   html = replaceMeta(html, 'name', 'twitter:title', page.title);
   html = replaceMeta(html, 'name', 'twitter:description', page.description);
   html = html.replace(/<link rel="canonical" href="[^"]*"\s*\/>/, `<link rel="canonical" href="${escapeHtml(page.canonical)}" />`);
+  html = html.replace(/<html lang="[^"]*"/, `<html lang="${escapeHtml(page.lang || 'en')}"${page.dir === 'rtl' ? ' dir="rtl"' : ''}`);
+  if (page.locale) html = replaceMeta(html, 'property', 'og:locale', page.locale);
+  if (page.alternates) {
+    const links = page.alternates.map((a) => `<link rel="alternate" hreflang="${escapeHtml(a.hreflang)}" href="${escapeHtml(a.href)}" />`).join('\n    ');
+    html = html.replace(/(<link rel="canonical" href="[^"]*"\s*\/>)/, `$1\n    ${links}`);
+  }
   html = html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${serializeSeoSchema(page)}</script>`);
   return html;
 }
@@ -52,6 +59,14 @@ try {
     await mkdir(dirname(output), { recursive: true });
     await writeFile(output, html);
   }
+  const urls = Object.values(SEO_PAGES).map((page) => {
+    const alt = (page.alternates || []).map((a) => `    <xhtml:link rel="alternate" hreflang="${a.hreflang}" href="${a.href}" />`).join('\n');
+    const mod = page.post ? `\n    <lastmod>${page.post.updated || page.post.date}</lastmod>` : '';
+    return `  <url>\n    <loc>${page.canonical}</loc>${mod}${alt ? '\n' + alt : ''}\n  </url>`;
+  });
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join('\n')}\n</urlset>\n`;
+  await writeFile(resolve(dist, 'sitemap.xml'), sitemap);
+  await writeFile(resolve(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${ORIGIN}/sitemap.xml\n`);
 } finally {
   await vite.close();
 }

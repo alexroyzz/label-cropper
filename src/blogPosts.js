@@ -1,7 +1,9 @@
 // Original articles. Dates are the day each article was added to the site.
+import { buildGeneratedPosts, enFaq, enSummary } from './guides.js';
+import { MEESHO_GUIDE_POSTS } from './guidePostsMeesho.js';
+import { FLIPKART_GUIDE_POSTS } from './guidePostsFlipkart.js';
+
 const D = '2026-10-22';
-export const BLOG_ORIGIN = 'https://label-cropper-two.vercel.app';
-const LP = 'https://labelcroppro.in/blog/';
 
 export const POSTS = [
   {
@@ -16,7 +18,7 @@ export const POSTS = [
       { h: 'Adjusting the crop manually', p: ['Open Advanced crop settings to change the Left, Top, Width and Height values, given as a percentage of the page. These are used when auto-detect is off or fails. Change one value at a time, crop again and compare the preview.'] },
       { h: 'Printing', p: ['Once you have the file, see [printing on a 4×6 thermal printer](/blog/print-shipping-labels-on-4x6-thermal-printer) or [printing on A4 paper](/blog/how-to-print-shipping-labels-on-a4-paper). If something prints too small or cut off, use the [printing problems guide](/blog/how-to-fix-shipping-label-printing-problems).'] },
     ],
-    resources: [['E-Cropper Meesho tool', 'https://www.ecropper.in/crop/meesho', 'An alternative Meesho cropper with 4×6 output and SKU overlays.'], ['LabelCropPro: Meesho labels on a 4×6 printer', LP + 'print-meesho-labels-thermal-printer', 'A guide to printing Meesho labels with the invoice.']],
+    resources: [['Meesho label cropper tool', 'https://croplabelfree.online/meesho-label-cropper', 'Crop Meesho label PDFs in your browser with automatic detection.'], ['Print shipping labels on a 4x6 thermal printer', 'https://croplabelfree.online/blog/print-shipping-labels-on-4x6-thermal-printer', 'Paper size, scale and margin settings for thermal label printers.']],
     related: ['how-to-crop-flipkart-shipping-label-pdf', 'print-shipping-labels-on-4x6-thermal-printer', 'shipping-label-pdf-privacy-and-security'],
   },
   {
@@ -32,7 +34,7 @@ export const POSTS = [
       { h: 'Sorting for packing', p: ['Group labels by SKU sorts the cropped pages by SKU and gives you a picklist with quantities, which helps when many orders share a product.'] },
       { h: 'Next step', p: ['Print a single page first. The [thermal printing guide](/blog/print-shipping-labels-on-4x6-thermal-printer) and [troubleshooting guide](/blog/how-to-fix-shipping-label-printing-problems) cover the settings that matter. The general walkthrough is in [how to crop shipping labels](/how-to-crop-shipping-labels).'] },
     ],
-    resources: [['LabelCropPro: printing at the right size', LP + 'print-settings', 'Explains scale, paper size and margins in common browsers.']],
+    resources: [['Flipkart label cropper tool', 'https://croplabelfree.online/flipkart-label-cropper', 'Crop and sort Flipkart label PDFs by SKU in your browser.'], ['Print shipping labels on a 4x6 thermal printer', 'https://croplabelfree.online/blog/print-shipping-labels-on-4x6-thermal-printer', 'Choose the right paper size and scale before printing.']],
     related: ['how-to-crop-meesho-shipping-label-pdf', 'how-to-fix-shipping-label-printing-problems', 'how-to-print-shipping-labels-on-a4-paper'],
   },
   {
@@ -47,7 +49,7 @@ export const POSTS = [
       { h: 'Test the first label', ol: ['Print only page 1 of the cropped PDF.', 'Check that all four edges of the content are present.', 'Measure the printed label against the roll if the size looks wrong.', 'Scan the barcode with the courier or marketplace app if you can.', 'Print the rest only after this test passes.'] },
       { h: 'Keep the settings', p: ['Once a setup works, save it as a printer preset so you do not repeat it every day. If a test fails, go to [fixing label printing problems](/blog/how-to-fix-shipping-label-printing-problems). To prepare the PDF, use the [Meesho](/meesho-label-cropper) or [Flipkart](/flipkart-label-cropper) cropper.'] },
     ],
-    resources: [['LabelCropPro: 4×6 and 3×5 thermal printing', LP + 'thermal-label-printing', 'A separate guide to choosing a page size for thermal stock.']],
+    resources: [['How to print shipping labels on A4 paper', 'https://croplabelfree.online/blog/how-to-print-shipping-labels-on-a4-paper', 'Print labels on regular A4 sheets when you have no thermal printer.']],
     related: ['how-to-fix-shipping-label-printing-problems', 'how-to-print-shipping-labels-on-a4-paper', 'how-to-crop-meesho-shipping-label-pdf'],
   },
   {
@@ -62,7 +64,7 @@ export const POSTS = [
       { h: 'Before you cut and stick', ol: ['Print one page and scan the barcode.', 'Leave a small border so cutting does not clip the label.', 'Use clear tape or label sheets that do not cover the barcode with glare.', 'Do not fold the label across the barcode.'] },
       { h: 'Related', p: ['Crop first with the [Flipkart](/flipkart-label-cropper) or [Meesho](/meesho-label-cropper) cropper. If printing goes wrong, see [common label printing problems](/blog/how-to-fix-shipping-label-printing-problems).'] },
     ],
-    resources: [],
+    resources: [['How to fix shipping label printing problems', 'https://croplabelfree.online/blog/how-to-fix-shipping-label-printing-problems', 'Fix clipped, tiny or blurry labels and barcodes that will not scan.']],
     related: ['print-shipping-labels-on-4x6-thermal-printer', 'how-to-fix-shipping-label-printing-problems', 'how-to-crop-flipkart-shipping-label-pdf'],
   },
   {
@@ -77,7 +79,7 @@ export const POSTS = [
       { h: 'Blurry or faded text', p: ['Use a higher quality mode, replace worn ink or toner, and avoid very cheap label stock. On thermal printers, a dirty head and low darkness are the most frequent reasons.'] },
       { h: 'If it still fails', p: ['Re-download the original PDF and [crop it again](/how-to-crop-shipping-labels), then print a single page. Follow the [4×6 thermal setup](/blog/print-shipping-labels-on-4x6-thermal-printer) or [A4 settings](/blog/how-to-print-shipping-labels-on-a4-paper) from the start.'] },
     ],
-    resources: [['LabelCropPro: when a barcode will not scan', LP + 'barcode-not-scanning', 'A checklist of reasons barcodes fail at handover.'], ['LabelCropPro: printing at the right size', LP + 'print-settings', 'Where the scale and margin settings are in common browsers.']],
+    resources: [['Print shipping labels on a 4x6 thermal printer', 'https://croplabelfree.online/blog/print-shipping-labels-on-4x6-thermal-printer', 'Correct paper size and scale for 4x6 labels.'], ['How to print shipping labels on A4 paper', 'https://croplabelfree.online/blog/how-to-print-shipping-labels-on-a4-paper', 'Scale and margin settings for A4 printing.']],
     related: ['print-shipping-labels-on-4x6-thermal-printer', 'how-to-print-shipping-labels-on-a4-paper', 'how-to-crop-flipkart-shipping-label-pdf'],
   },
   {
@@ -92,13 +94,73 @@ export const POSTS = [
       { h: 'Good habits for sellers', ul: ['Do not share label PDFs in public chats or social media posts.', 'Delete downloaded label files you no longer need, including from the Downloads folder.', 'Use a device with a screen lock and updated browser.', 'Print only the pages you need and dispose of paper copies carefully.', 'Limit who on your team can access order exports.'] },
       { h: 'Related', p: ['See the [homepage tool](/) or the guides for [Meesho](/blog/how-to-crop-meesho-shipping-label-pdf) and [Flipkart](/blog/how-to-crop-flipkart-shipping-label-pdf) labels.'] },
     ],
-    resources: [['LabelCropPro: what is on the label PDF you upload', LP + 'seller-data-privacy', 'Another view of seller data privacy and how to check uploads.']],
+    resources: [['How to crop and check a shipping label PDF', 'https://croplabelfree.online/how-to-crop-shipping-labels', 'Step-by-step crop, preview and print checks, all done in your browser.']],
     related: ['how-to-crop-meesho-shipping-label-pdf', 'how-to-crop-flipkart-shipping-label-pdf', 'how-to-fix-shipping-label-printing-problems'],
   },
 ];
+
+// Meesho and Flipkart English guides: attach platform, language, summary (meta-style line) and FAQ.
+for (const p of POSTS) {
+  p.lang = 'en';
+  p.path = `/blog/${p.slug}`;
+  const pid = p.slug.includes('-meesho-') ? 'meesho' : p.slug.includes('-flipkart-') ? 'flipkart' : null;
+  if (pid) { p.platform = pid; p.summary = enSummary(pid); p.faq = enFaq(pid); }
+}
+
+// Extra content for the two original how-to guides (questions 1 and 11): a worked example, common mistakes and FAQs.
+const UPDATED = '2026-11-03';
+const EXTRA = {
+  'how-to-crop-meesho-shipping-label-pdf': {
+    covers: [1], cta: '/meesho-label-cropper#label-tool', rename: ['Steps', 'How to crop Meesho shipping labels online'],
+    more: [
+      { h: 'A practical example', p: ['Example: a seller downloads a 20-page Meesho label PDF, selects Meesho, adds the file and presses Crop Labels. The tool produces Labels_Meesho_20.pdf with 20 label-only pages. In the preview they check pages 1, 10 and 20 for a complete barcode and address, then download and print one test label.'] },
+      { h: 'Common mistakes and fixes', ul: [
+        'Choosing Flipkart for a Meesho PDF: select Meesho and crop again.',
+        'Using a screenshot or scanned copy: download the original label PDF again, because detection reads the text in the PDF.',
+        'Expecting a 4x6 page: the output keeps the label\'s own size. See [Meesho PDF to 4x6](/blog/meesho-pdf-to-4x6-label).',
+        'Not checking the preview: if some pages are reported as undetected, check them and adjust the crop area.',
+      ] },
+    ],
+    faq: [{ q: 'Does the crop remove the invoice from the Meesho PDF?', a: 'The cropped pages show the label only, so the invoice below it is not visible. The crop hides it rather than erasing it, so do not use it to redact the invoice. Your original file is not changed. See [how the invoice is handled](/blog/meesho-pdf-to-4x6-label#invoice).' }],
+    related: ['meesho-label-cropper-guide', 'meesho-pdf-to-4x6-label', 'meesho-bulk-label-cropping'],
+  },
+  'how-to-crop-flipkart-shipping-label-pdf': {
+    covers: [11], cta: '/flipkart-label-cropper#label-tool', rename: ['Upload and crop', 'How to crop Flipkart shipping labels online'],
+    more: [
+      { h: 'A practical example', p: ['Example: a seller adds a 15-page Flipkart PDF, keeps auto-detect on and presses Crop Labels. The result is Labels_Flipkart_15.pdf. In the preview they confirm that the barcode and tracking number are complete on several pages, then print one test label.'] },
+      { h: 'Common mistakes and fixes', ul: [
+        'Choosing Meesho for a Flipkart PDF: select Flipkart and crop again.',
+        'Cropping a screenshot: use the original label PDF.',
+        'Expecting exact 4x6 output: see [Flipkart PDF to 4x6](/blog/flipkart-pdf-to-4x6-label).',
+        'Cropping too tightly by hand: keep a small margin around the label.',
+      ] },
+    ],
+    faq: [{ q: 'Does the Flipkart crop include the invoice?', a: 'No. The cropped pages show the label area only. The crop hides the rest rather than erasing it, so it is not a redaction. Your original file is not changed. See [how the invoice is handled](/blog/flipkart-pdf-to-4x6-label#invoice).' }],
+    related: ['flipkart-label-cropper-guide', 'flipkart-pdf-to-4x6-label', 'flipkart-bulk-label-cropping'],
+  },
+};
+for (const p of POSTS) {
+  const x = EXTRA[p.slug];
+  if (!x) continue;
+  p.covers = x.covers; p.cta = x.cta; p.updated = UPDATED;
+  p.sections = p.sections.map((s) => (s.h === x.rename[0] ? { ...s, h: x.rename[1] } : s));
+  p.sections.splice(p.sections.length - 1, 0, ...x.more);
+  p.faq = [...p.faq, ...x.faq];
+  p.related = [...new Set([...p.related, ...x.related])];
+}
+
+// New SEO guides (questions 2-10, 12-20). They carry their own language and do not join the hreflang cluster of the
+// platform guides above, so no `platform` is set; `cta` points the call-to-action at the right tool page.
+const GUIDE_POSTS = [...MEESHO_GUIDE_POSTS, ...FLIPKART_GUIDE_POSTS];
+for (const p of GUIDE_POSTS) p.path = `/blog/${p.slug}`;
+
+const GENERATED = buildGeneratedPosts();
+export const ENGLISH_POSTS = [...POSTS, ...GUIDE_POSTS, ...GENERATED.filter((p) => p.lang === 'en')];
+export const LOCAL_POSTS = GENERATED.filter((p) => p.lang !== 'en');
+export const ALL_POSTS = [...ENGLISH_POSTS, ...LOCAL_POSTS];
 
 export const BLOG_INDEX = {
   title: 'Shipping Label Guides for Flipkart & Meesho Sellers | Label Cropper Blog',
   description: 'Practical guides on cropping, printing and protecting Flipkart and Meesho shipping label PDFs, including thermal 4x6 printing and troubleshooting.',
 };
-export const getPost = (slug) => POSTS.find((p) => p.slug === slug);
+export const getPost = (slug) => ENGLISH_POSTS.find((p) => p.slug === slug);

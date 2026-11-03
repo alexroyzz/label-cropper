@@ -1,0 +1,782 @@
+# Label Cropper: full content
+
+> Free online shipping label cropper for Meesho & Flipkart sellers. Crop PDF labels for 4x6 thermal printing in your browser. No signup, no upload.
+
+Canonical site: https://croplabelfree.online/ . All pages below are first-party pages of this site.
+
+## Home: Free Shipping Label Cropper for Meesho & Flipkart
+URL: https://croplabelfree.online/
+
+Crop shipping label PDFs online, preview the result, and download a print-ready PDF. Meesho and Flipkart labels are detected automatically, with an adjustable crop area when you need it. Your files are processed on your device and never uploaded.
+
+### FAQ
+**What is a shipping label cropper?**
+A shipping label cropper trims a marketplace PDF down to just the shipping label. Seller panels usually give you a full A4 page with the label plus an invoice or other details; the cropper keeps only the label so it can be printed on a label printer.
+
+**Which marketplaces does it work with?**
+Meesho and Flipkart labels are detected automatically. You can also adjust the crop area yourself in Advanced crop settings and check it in the preview.
+
+**How do I crop a Flipkart shipping label?**
+Select Flipkart, drop your label PDF(s) into the tool and click Crop labels. The label position is detected automatically on every page. Then preview the result, download the cropped PDF, or copy the SKU picklist.
+
+**How do I crop a Meesho shipping label?**
+Select Meesho, drop your label PDF(s) into the tool and click Crop labels. The label is detected automatically and the invoice section below it is left out. Then preview, download the PDF, or copy the SKU picklist.
+
+**Can I crop multiple shipping label PDFs?**
+Yes. You can choose several PDF files at once. All their labels are cropped and combined into a single PDF, and you can optionally group them by SKU. Choose one marketplace per run.
+
+**Can I prepare labels for a 4x6 thermal printer?**
+Yes, that is what the tool is for. Each page of the output is just the label, with no margins or extra text, and the original text and barcodes are kept sharp. The pages keep the label’s original size, so in your print dialog choose your 4x6 (100x150mm) paper size and check the scaling.
+
+**Are my PDF files uploaded to a server?**
+No. Your PDFs are processed locally in your browser. They are not uploaded to a server.
+
+**Is this shipping label cropper free?**
+Yes. It is free to use, with no sign-up.
+
+**What is the best 4x6 shipping label cropper for thermal printers?**
+There is no single tool that is best for everyone, and we cannot verify claims about other tools, so here is what to check instead. For 4x6 thermal printing you want reliable label detection for your marketplace, output that keeps barcodes sharp instead of turning the page into a picture, a preview before you print, and clear information about the output size.
+
+Label Cropper is built for Meesho and Flipkart labels only. It keeps the original text and barcodes, shows a preview and can group labels by SKU. It does not resize labels to an exact 4x6 page or place several labels on one sheet, so you set the 4x6 paper size and scaling in your print dialog. The full checklist is in the [4x6 thermal label cropper guide](/blog/4x6-thermal-label-cropper-guide).
+
+**How to crop shipping label PDF without losing barcode quality?**
+Use a cropper that crops the original PDF instead of re-drawing the page as an image. Label Cropper copies the chosen area of each original page into the new PDF without resizing it, so the text and barcodes stay as they were in your file. It cannot improve a barcode that was low quality in the original.
+
+After cropping, most quality loss happens at print time: scaling the page up or down, a draft print mode, low darkness or a dirty print head. Print at 100% or Actual size where you can, and scan-test one label before printing a batch. No tool can promise that every barcode will scan on every printer, so always test. More in [shipping label barcode quality](/blog/shipping-label-barcode-quality).
+
+## Meesho Label Cropper for Shipping Label PDFs
+URL: https://croplabelfree.online/meesho-label-cropper
+
+Crop a supported Meesho shipping label PDF, check the result in the built-in preview, and download the cropped pages. Processing stays in your browser.
+
+### FAQ
+**How to crop Meesho shipping labels online?**
+Select Meesho in the tool, add your unedited Meesho label PDF (one or several files), leave "Auto-detect label position on every page" ticked and press Crop Labels. Check the preview, then download the cropped PDF. The file is processed in your browser and is not uploaded.
+
+Step-by-step with a checklist: [how to crop a Meesho shipping label PDF](/blog/how-to-crop-meesho-shipping-label-pdf).
+
+**Meesho ka label cropper kaise kare?**
+Tool mein Meesho select karo, seller panel se download ki hui original label PDF upload karo aur Crop Labels dabao. Preview mein barcode aur address check karo, phir cropped PDF download kar lo. File aapke browser mein hi process hoti hai, kisi server par upload nahi hoti.
+
+Poori Hinglish guide: [Meesho ka label cropper kaise kare](/blog/hinglish/meesho-label-cropper-kaise-kare).
+
+**Free Meesho label cropper online kahan milega?**
+Ye site hi ek free Meesho label cropper hai. Is page ke upar wale tool mein PDF daalo aur crop karo: sign-up aur watermark ki zaroorat nahi. Tool kya karta hai aur kya nahi (jaise exact 4x6 resize nahi karta), ye English mein [Meesho label cropper guide](/blog/meesho-label-cropper-guide) mein likha hai.
+
+**How to convert Meesho PDF labels into 4x6 format?**
+Label Cropper crops the Meesho label out of the page but does not resize it to an exact 4x6. Each output page keeps the cropped label's own size. To print on a 4x6 (100x150 mm) roll, choose that paper size in the print dialog and set the scaling. In the layout this tool handles, the Meesho label is wider than it is tall, so test the scaling and scan the barcode on one label first. Details: [Meesho PDF to 4x6 label](/blog/meesho-pdf-to-4x6-label).
+
+**How to remove invoice from Meesho shipping label PDF?**
+The tool does not delete the invoice from your file. It crops each page down to the label area, so the invoice that sits below the label is not visible in the cropped PDF. The crop hides the rest of the page rather than erasing it: the new file still carries the original page content, clipped to the label, so do not rely on it to redact the invoice before sharing the file. Your original PDF is unchanged and the invoice is not saved separately. Check a few pages in the preview. More in [removing the invoice from a Meesho label PDF](/blog/meesho-pdf-to-4x6-label#invoice).
+
+**Meesho label thermal printer par kaise print kare?**
+Cropped PDF download karo, use PDF viewer mein kholo, print dialog mein paper size 4x6 (100x150 mm) chuno, margins None ya Minimum rakho aur scaling check karo. Pehle sirf ek label print karke barcode scan karke dekho, phir baaki print karo. Printer ke model ke hisaab se settings alag ho sakti hain, isliye hum kisi specific printer ki compatibility ka daava nahi karte. Poori guide: [Meesho thermal printer guide](/blog/meesho-thermal-printer-guide).
+
+**How to crop multiple Meesho shipping labels at once?**
+Yes. Add several Meesho PDFs at once, or add more files one after another, then press Crop Labels. Every page of every file is cropped and the labels are merged into a single PDF, which you can optionally group by SKU. Use one marketplace per run: Meesho and Flipkart PDFs have to be cropped separately. See [bulk Meesho label cropping](/blog/meesho-bulk-label-cropping).
+
+**Meesho shipping label ka barcode blur kyu hota hai?**
+Cropping se barcode blur nahi hota: tool original text aur barcode ko dobara draw ya resize nahi karta. Blur aksar print ke samay hota hai: page ko zyada chhota ya bada scale karna, low print quality ya darkness, dirty print head, ya sirf screen par kam zoom hona. Agar original PDF ka barcode hi low-quality image hai, to crop use behtar nahi bana sakta. Check karne ke steps: [shipping label barcode quality](/blog/shipping-label-barcode-quality).
+
+**How to download Meesho shipping labels from Supplier Panel?**
+Label Cropper does not download labels from Meesho. You download the label PDF yourself from your Meesho supplier account, and because the menus and options can change, follow Meesho's own current instructions for that step. What matters for cropping is that the file is the original PDF: unlocked, unedited and not a screenshot. Then add it to the tool. More in [bulk Meesho label cropping](/blog/meesho-bulk-label-cropping#download).
+
+**Meesho label crop karne ke baad PDF kaise print kare?**
+Cropped PDF download karo (ya Preview Result se browser ke PDF viewer mein kholo) aur Print dabao. Sahi paper size chuno, margins None ya Minimum rakho aur scaling dhyan se set karo. Pehle sirf page 1 print karke barcode scan karke dekho, phir poora batch print karo. Steps aur common galtiyan: [Meesho thermal printer guide](/blog/meesho-thermal-printer-guide).
+
+**Is the Meesho label cropper free?**
+Yes. It is free to use, with no sign-up and no watermark.
+
+**Does it detect the Meesho label automatically?**
+Yes. The Meesho layout is detected from the PDF text on each page. If a page is not detected, the tool reports it and uses the manual crop area for that page, so check the preview.
+
+**Can I crop and sort Meesho labels by SKU?**
+You can add several PDFs from one marketplace, tick Group labels by SKU and copy the SKU picklist. This needs readable SKU text in the PDF; otherwise the picklist shows UNKNOWN for that label.
+
+**Are my label PDFs uploaded?**
+No. The PDF is read and cropped in your browser and is not sent to a Label Cropper server.
+
+## Flipkart Label Cropper for Shipping Label PDFs
+URL: https://croplabelfree.online/flipkart-label-cropper
+
+Use the Flipkart label cropper to trim supported shipping label pages, review the cropped PDF, and download it for printing. Your files are processed on your device.
+
+### FAQ
+**How to crop Flipkart shipping labels online?**
+Select Flipkart in the tool, add your unedited Flipkart label PDF (one or several files), leave "Auto-detect label position on every page" ticked and press Crop Labels. Review the preview, then download the cropped PDF. Your file is processed in the browser and is not uploaded.
+
+Step-by-step with a checklist: [how to crop Flipkart shipping label PDFs](/blog/how-to-crop-flipkart-shipping-label-pdf).
+
+**Flipkart ka label cropper kaise kare?**
+Tool mein Flipkart select karo, seller panel se download ki hui label PDF upload karo aur Crop Labels dabao. Preview mein barcode aur address poora dikhe to cropped PDF download karo. Aur detail mein: [Flipkart label cropper guide](/blog/flipkart-label-cropper-guide) aur Hinglish mein [Flipkart ka label cropper kaise kare](/blog/hinglish/flipkart-label-cropper-kaise-kare).
+
+**Free Flipkart label crop and sort tool online?**
+Yes. This tool is free, needs no sign-up and adds no watermark. Add one or more Flipkart label PDFs, tick "Group labels by SKU" and press Crop Labels: the cropped labels are sorted by the SKU text the tool can read, and a SKU picklist with quantities is shown that you can copy. Sorting is by SKU only, not by courier, order date or pincode, and a label without readable SKU text is listed as UNKNOWN. See the [Flipkart label cropper guide](/blog/flipkart-label-cropper-guide).
+
+**How to convert Flipkart shipping label PDF into 4x6?**
+Label Cropper crops the Flipkart label out of the page but does not resize it to an exact 4x6. Each output page keeps the cropped label's size, which in the layout this tool handles is a portrait label of roughly 3 x 5 inches. For a 4x6 (100x150 mm) roll, choose that paper size when printing and check the scaling, then test one label. Details: [Flipkart PDF to 4x6 label](/blog/flipkart-pdf-to-4x6-label).
+
+**How to remove invoice from Flipkart shipping label?**
+The tool does not delete the invoice from your file. It finds the Flipkart label on each page and crops to it, so the invoice below the label is not visible in the cropped PDF. The crop hides the rest of the page rather than erasing it, so do not rely on it to redact the invoice before sharing the file. The original PDF is unchanged and the invoice is not saved separately. Check the preview, and see [removing the invoice from a Flipkart label](/blog/flipkart-pdf-to-4x6-label#invoice).
+
+**How to print Flipkart labels on a thermal printer?**
+Crop the PDF, download it and open it in a PDF viewer. In the print dialog choose your thermal printer, set the paper size to 4x6 (100x150 mm), set margins to None or Minimum and check the scaling. Print one label first and scan its barcode before printing the rest. Settings differ between printer models, so we do not claim support for any specific model. Full steps: [Flipkart thermal printer guide](/blog/flipkart-thermal-printer-guide).
+
+**How to crop multiple Flipkart shipping labels together?**
+Add all your Flipkart PDFs at once (or add more files one after another) and press Crop Labels. All pages are cropped and merged into one PDF. Tick "Group labels by SKU" if you want same-SKU labels together. Flipkart and Meesho files must be cropped in separate runs. More in [bulk Flipkart label cropping](/blog/flipkart-bulk-label-cropping).
+
+**Flipkart shipping label barcode scan nahi ho raha kya kare?**
+Pehle check karo ki barcode poora print hua hai aur crop se kata nahi. Phir print scaling 100% ya Actual size ke paas rakho, print darkness/quality badhao, print head saaf karo aur alag scanner ya app se scan karke dekho. Crop karne se barcode ki quality kam nahi hoti, par original PDF ya print settings kharab ho to scan fail ho sakta hai. Poore steps: [shipping label barcode quality](/blog/shipping-label-barcode-quality).
+
+**Is the Flipkart label cropper free?**
+Yes. It is free to use, with no sign-up and no watermark.
+
+**Does it detect the Flipkart label automatically?**
+Yes. The Flipkart layout is detected from the PDF text on each page. If a page is not detected, the tool reports it and uses the manual crop area for that page, so check the preview.
+
+**Can I crop and sort Flipkart labels by SKU?**
+You can add several PDFs from one marketplace, tick Group labels by SKU and copy the SKU picklist. This needs readable SKU text in the PDF; otherwise the picklist shows UNKNOWN for that label.
+
+**Are my label PDFs uploaded?**
+No. The PDF is read and cropped in your browser and is not sent to a Label Cropper server.
+
+## How to Crop a Shipping Label PDF Online
+URL: https://croplabelfree.online/how-to-crop-shipping-labels
+
+Prepare a label PDF from your seller panel, review each crop, and print the result with this step-by-step guide.
+
+## How to Crop a Meesho Shipping Label PDF (Step by Step)
+URL: https://croplabelfree.online/blog/how-to-crop-meesho-shipping-label-pdf
+
+A Meesho label PDF usually has the shipping label at the top of a larger page. Printing it as-is wastes paper, so most sellers crop each page down to the label first. This guide walks through doing that with the [Meesho label cropper](https://croplabelfree.online/meesho-label-cropper).
+
+### Before you start
+Download the label PDF from your Meesho supplier panel and keep it unedited. Cropping works best on the original file, because the tool reads the text on each page to find where the label sits. Scanned or screenshot PDFs have no readable text, so automatic detection may miss them.
+
+### How to crop Meesho shipping labels online
+1. Open the [Meesho label cropper](https://croplabelfree.online/meesho-label-cropper) and make sure Meesho is selected.
+2. Drag your PDF onto the upload area, or choose it with Browse Files. You can add more than one PDF from the same marketplace.
+3. Leave auto-detect on. The tool looks for the label on every page and crops to it.
+4. Turn on Group labels by SKU only if you want labels sorted for packing. This also produces a SKU picklist you can copy.
+5. Press Crop Labels, then open the preview.
+6. If the preview looks right, download the cropped PDF.
+
+### Check the crop before printing
+Scroll through the preview and look at a few things on several pages, not just the first: the barcode is complete, the address block is not clipped, and no part of a neighbouring page is showing. If detection missed a page, the tool tells you, and falls back to the manual crop area under Advanced crop settings.
+The cropped pages keep the original vector text and barcodes and are not resized, so the output page is exactly the size of the area that was cropped.
+
+### Adjusting the crop manually
+Open Advanced crop settings to change the Left, Top, Width and Height values, given as a percentage of the page. These are used when auto-detect is off or fails. Change one value at a time, crop again and compare the preview.
+
+### A practical example
+Example: a seller downloads a 20-page Meesho label PDF, selects Meesho, adds the file and presses Crop Labels. The tool produces Labels_Meesho_20.pdf with 20 label-only pages. In the preview they check pages 1, 10 and 20 for a complete barcode and address, then download and print one test label.
+
+### Common mistakes and fixes
+- Choosing Flipkart for a Meesho PDF: select Meesho and crop again.
+- Using a screenshot or scanned copy: download the original label PDF again, because detection reads the text in the PDF.
+- Expecting a 4x6 page: the output keeps the label's own size. See [Meesho PDF to 4x6](https://croplabelfree.online/blog/meesho-pdf-to-4x6-label).
+- Not checking the preview: if some pages are reported as undetected, check them and adjust the crop area.
+
+### Printing
+Once you have the file, see [printing on a 4×6 thermal printer](https://croplabelfree.online/blog/print-shipping-labels-on-4x6-thermal-printer) or [printing on A4 paper](https://croplabelfree.online/blog/how-to-print-shipping-labels-on-a4-paper). If something prints too small or cut off, use the [printing problems guide](https://croplabelfree.online/blog/how-to-fix-shipping-label-printing-problems).
+
+### FAQ
+**How do I crop a Meesho label?**
+Select Meesho, upload the label PDF, press Crop Labels, check the preview and download the cropped PDF.
+
+**Is there a free Meesho label cropper?**
+Yes. This tool is free, needs no signup and adds no watermark.
+
+**Does it crop the Meesho label automatically?**
+The tool finds the Meesho label on each page automatically. If a page is not detected, it tells you and uses the crop area in Advanced crop settings, so check the preview.
+
+**Can I crop and sort Meesho labels by SKU in one go?**
+Yes. Add several PDFs of one marketplace, tick Group labels by SKU and copy the SKU picklist. This needs readable SKU text in the PDF.
+
+**Is my PDF uploaded to a server?**
+No. The PDF is read and cropped in your browser and is not sent to any server.
+
+**Does the crop remove the invoice from the Meesho PDF?**
+The cropped pages show the label only, so the invoice below it is not visible. The crop hides it rather than erasing it, so do not use it to redact the invoice. Your original file is not changed. See [how the invoice is handled](/blog/meesho-pdf-to-4x6-label#invoice).
+
+## How to Crop Flipkart Shipping Label PDFs Without Cutting Off Details
+URL: https://croplabelfree.online/blog/how-to-crop-flipkart-shipping-label-pdf
+
+Flipkart label PDFs place a smaller label in the middle of a larger page, so a plain print leaves a lot of blank paper. The [Flipkart label cropper](https://croplabelfree.online/flipkart-label-cropper) trims each page to the label. The important part is checking the result.
+
+### How to crop Flipkart shipping labels online
+1. Open the [Flipkart label cropper](https://croplabelfree.online/flipkart-label-cropper) and select Flipkart.
+2. Add your label PDF, or several PDFs from the same marketplace.
+3. Keep auto-detect on and press Crop Labels.
+4. Open the preview and review the pages.
+
+### How boundaries are found
+The tool reads the text on each page and uses it to locate the label box. That is why unedited seller-panel PDFs work best. Pages that are rotated or have an unusual origin are not auto-detected; those use the manual crop area instead, and the tool reports how many pages needed it.
+
+### What to verify in the output
+- The barcode and the tracking number are fully inside the page.
+- The delivery address and the order details are not clipped at any edge.
+- Pages that were not auto-detected look as good as the rest.
+- The number of cropped labels matches the number of orders you expected.
+
+### Removing unwanted margins
+If a crop leaves too much white space or touches the label edge, switch auto-detect off and tune the Left, Top, Width and Height percentages under Advanced crop settings. Keep a small safety margin: a label cropped right on its border can lose a line on some printers.
+
+### Sorting for packing
+Group labels by SKU sorts the cropped pages by SKU and gives you a picklist with quantities, which helps when many orders share a product.
+
+### A practical example
+Example: a seller adds a 15-page Flipkart PDF, keeps auto-detect on and presses Crop Labels. The result is Labels_Flipkart_15.pdf. In the preview they confirm that the barcode and tracking number are complete on several pages, then print one test label.
+
+### Common mistakes and fixes
+- Choosing Meesho for a Flipkart PDF: select Flipkart and crop again.
+- Cropping a screenshot: use the original label PDF.
+- Expecting exact 4x6 output: see [Flipkart PDF to 4x6](https://croplabelfree.online/blog/flipkart-pdf-to-4x6-label).
+- Cropping too tightly by hand: keep a small margin around the label.
+
+### Next step
+Print a single page first. The [thermal printing guide](https://croplabelfree.online/blog/print-shipping-labels-on-4x6-thermal-printer) and [troubleshooting guide](https://croplabelfree.online/blog/how-to-fix-shipping-label-printing-problems) cover the settings that matter. The general walkthrough is in [how to crop shipping labels](https://croplabelfree.online/how-to-crop-shipping-labels).
+
+### FAQ
+**How do I crop a Flipkart label?**
+Select Flipkart, upload the label PDF, press Crop Labels, check the preview and download the cropped PDF.
+
+**Is there a free Flipkart label cropper?**
+Yes. This tool is free, needs no signup and adds no watermark.
+
+**Does it crop the Flipkart label automatically?**
+The tool finds the Flipkart label on each page automatically. If a page is not detected, it tells you and uses the crop area in Advanced crop settings, so check the preview.
+
+**Can I crop and sort Flipkart labels by SKU in one go?**
+Yes. Add several PDFs of one marketplace, tick Group labels by SKU and copy the SKU picklist. This needs readable SKU text in the PDF.
+
+**Is my PDF uploaded to a server?**
+No. The PDF is read and cropped in your browser and is not sent to any server.
+
+**Does the Flipkart crop include the invoice?**
+No. The cropped pages show the label area only. The crop hides the rest rather than erasing it, so it is not a redaction. Your original file is not changed. See [how the invoice is handled](/blog/flipkart-pdf-to-4x6-label#invoice).
+
+## Printing Shipping Labels on a 4×6 Thermal Printer (100×150 mm)
+URL: https://croplabelfree.online/blog/print-shipping-labels-on-4x6-thermal-printer
+
+A 4×6 inch label is about 100×150 mm, the standard size for thermal label rolls. Most print problems come from a mismatch between the page size of the PDF, the paper size in the printer driver and the scaling setting.
+
+### Match the paper size
+In the print dialog or printer preferences, choose a paper size of 4×6 in (or 100×150 mm). If it is missing, create a custom size in the printer driver with those dimensions. Make sure the media type matches your roll, such as labels with gaps.
+
+### Know what you are printing
+The cropper outputs pages the same size as the cropped label, without scaling or margins. That size is whatever the original label area measured, so it may not be exactly 100×150 mm. If your printer is set to a fixed 4×6 page, the scaling setting decides whether the label fills it correctly.
+
+### Scaling and margins
+- Use 100% or Actual size when the label is already close to 4×6.
+- Use Fit to page only if you accept a small size change, and then test the barcode.
+- Set margins to None or Minimum. Default margins shrink or shift the label.
+- Turn off headers and footers in the browser print dialog.
+
+### Test the first label
+1. Print only page 1 of the cropped PDF.
+2. Check that all four edges of the content are present.
+3. Measure the printed label against the roll if the size looks wrong.
+4. Scan the barcode with the courier or marketplace app if you can.
+5. Print the rest only after this test passes.
+
+### Keep the settings
+Once a setup works, save it as a printer preset so you do not repeat it every day. If a test fails, go to [fixing label printing problems](https://croplabelfree.online/blog/how-to-fix-shipping-label-printing-problems). To prepare the PDF, use the [Meesho](https://croplabelfree.online/meesho-label-cropper) or [Flipkart](https://croplabelfree.online/flipkart-label-cropper) cropper.
+
+## How to Print Shipping Labels on A4 Paper
+URL: https://croplabelfree.online/blog/how-to-print-shipping-labels-on-a4-paper
+
+Not every seller has a thermal printer. An ordinary A4 inkjet or laser printer can print shipping labels, and it is a reasonable choice for low volumes if you cut and stick the labels yourself.
+
+### When A4 makes sense
+A4 works for small daily volumes or while you are starting out. It costs more in time per label, because you must cut and attach each one. At higher volumes a thermal printer is usually more practical.
+
+### Print settings
+- Paper size: A4, matching the paper in the tray.
+- Scale: 100% or Actual size, not Fit, so the barcode keeps its proportions.
+- Margins: Default or Minimum. Check that nothing at the label edge is cut off.
+- Quality: Normal or High. Draft mode can make barcodes hard to scan.
+- Colour: black and white is fine for most labels.
+
+### Several labels on one sheet
+The cropper outputs one cropped label per page. It does not arrange several labels on a single A4 sheet. If you want that, use your PDF viewer or printer driver, which often has a Multiple pages per sheet option. Keep that scaling at 100% where the driver allows it, and scan-test the barcode afterwards.
+
+### Before you cut and stick
+1. Print one page and scan the barcode.
+2. Leave a small border so cutting does not clip the label.
+3. Use clear tape or label sheets that do not cover the barcode with glare.
+4. Do not fold the label across the barcode.
+
+### Related
+Crop first with the [Flipkart](https://croplabelfree.online/flipkart-label-cropper) or [Meesho](https://croplabelfree.online/meesho-label-cropper) cropper. If printing goes wrong, see [common label printing problems](https://croplabelfree.online/blog/how-to-fix-shipping-label-printing-problems).
+
+## Shipping Label Not Scanning, Too Small or Cut Off? How to Fix It
+URL: https://croplabelfree.online/blog/how-to-fix-shipping-label-printing-problems
+
+When a shipping label prints badly, the cause is usually one of a few settings. Work through the checks below in order and change one thing at a time.
+
+### Label prints too small
+- Check that scaling is 100% or Actual size, not Fit or Shrink to printable area.
+- Check that the paper size in the print dialog matches the paper in the printer. A4 chosen for a 4×6 roll gives a tiny label.
+- Look at the PDF page size. A cropped label page is the size of the label itself.
+
+### Label is cut off
+- Set margins to None or Minimum.
+- Pick the paper size that matches the roll or sheet.
+- Re-check the crop in the preview. If the page was missed by auto-detect, adjust the manual crop area and crop again.
+- Leave a small safety margin on all sides.
+
+### Barcode will not scan
+1. Confirm the label printed at its original size. Barcodes scaled up or down lose scanning reliability.
+2. Increase print darkness or quality a step. Faint bars are a common cause.
+3. Clean the thermal print head or the A4 printer nozzles, and run a test page.
+4. Check that the roll is loaded the right way round and is not old or damaged.
+5. Check the barcode is complete and not sliced by a crop, a fold or tape.
+6. Scan with a different app or scanner to rule out the scanner.
+
+### Blurry or faded text
+Use a higher quality mode, replace worn ink or toner, and avoid very cheap label stock. On thermal printers, a dirty head and low darkness are the most frequent reasons.
+
+### If it still fails
+Re-download the original PDF and [crop it again](https://croplabelfree.online/how-to-crop-shipping-labels), then print a single page. Follow the [4×6 thermal setup](https://croplabelfree.online/blog/print-shipping-labels-on-4x6-thermal-printer) or [A4 settings](https://croplabelfree.online/blog/how-to-print-shipping-labels-on-a4-paper) from the start.
+
+## Shipping Label PDF Privacy: Protecting Customer Addresses and Phone Numbers
+URL: https://croplabelfree.online/blog/shipping-label-pdf-privacy-and-security
+
+A day of shipping labels is effectively a customer list. Each label has a name, a delivery address and often a phone number. Handling these files carefully protects your customers and your business.
+
+### What a label PDF contains
+Besides the address and phone number, labels show order and tracking details and SKUs. Treat the PDF like any other file with personal data, and keep it only as long as you need it.
+
+### How Label Cropper handles your file
+Label Cropper is a browser-based tool. The PDF is read and cropped by code running in your browser using the pdf.js and pdf-lib libraries, and the cropped PDF is created on your device. The application has no server component that receives your file. This describes how this site is built, not a guarantee about your device, browser extensions or network.
+
+### How to check any online tool
+1. Read its privacy statement for how files are handled.
+2. Open your browser developer tools, go to the Network tab, process a test file and look for upload requests carrying the PDF.
+3. Test with a sample label with no real customer data first.
+4. Prefer tools that state clearly whether files leave your device.
+
+### Good habits for sellers
+- Do not share label PDFs in public chats or social media posts.
+- Delete downloaded label files you no longer need, including from the Downloads folder.
+- Use a device with a screen lock and updated browser.
+- Print only the pages you need and dispose of paper copies carefully.
+- Limit who on your team can access order exports.
+
+### Related
+See the [homepage tool](https://croplabelfree.online/) or the guides for [Meesho](https://croplabelfree.online/blog/how-to-crop-meesho-shipping-label-pdf) and [Flipkart](https://croplabelfree.online/blog/how-to-crop-flipkart-shipping-label-pdf) labels.
+
+## Free Meesho Label Cropper Online: What It Does and What It Does Not
+URL: https://croplabelfree.online/blog/meesho-label-cropper-guide
+
+Yes, a free Meesho label cropper exists: Label Cropper on this site crops Meesho label PDFs in your browser with no sign-up and no watermark. This guide explains what it does, what it does not do, and how to check the result. To start straight away, open the [Meesho label cropper](https://croplabelfree.online/meesho-label-cropper).
+
+### What the Meesho label cropper does
+- Finds the label on every page of a Meesho label PDF by reading the page text (it looks for headings such as "Customer Address" and "Product Details").
+- Crops each page to that label area. The invoice section that sits below the label is not visible in the cropped pages.
+- Accepts several Meesho PDFs in one run and merges all the cropped labels into one PDF.
+- Optionally groups labels by SKU and shows a SKU picklist with quantities that you can copy.
+- Shows a preview in your browser's PDF viewer before you download the file.
+- Runs entirely in your browser. The PDF is not uploaded to a Label Cropper server.
+
+### What it does not do
+- It does not resize the label to an exact 4x6 page. Each output page keeps the size of the cropped label, so you set the paper size and scaling when you print. See [Meesho PDF to 4x6](https://croplabelfree.online/blog/meesho-pdf-to-4x6-label).
+- It does not download labels from your Meesho account. You download the PDF yourself first.
+- It does not put several labels on one A4 sheet.
+- It does not read scanned or screenshot PDFs well, because detection depends on text inside the PDF.
+- It does not mix marketplaces. Crop Meesho and Flipkart files in separate runs.
+- It does not delete or skip pages. Every page of the PDF becomes one cropped page.
+
+### How to use it, in short
+1. Open the [Meesho label cropper](https://croplabelfree.online/meesho-label-cropper) and make sure Meesho is selected.
+2. Add your original label PDF or PDFs with drag and drop or Browse Files.
+3. Keep "Auto-detect label position on every page" ticked. Tick "Group labels by SKU" only if you want SKU order.
+4. Press Crop Labels, look through the preview, then press Download Cropped PDF. The file is named like Labels_Meesho_25.pdf, where the number is how many labels it contains.
+
+### Free Meesho label cropper online kahan milega? (Hinglish)
+Ye site hi free Meesho label cropper hai: croplabelfree.online par PDF daalo, Crop Labels dabao aur download karo. Sign-up ya watermark nahi hai, aur PDF aapke browser se bahar nahi jaati.
+Meesho ka label cropper kaise kare? Tool mein Meesho select karo, seller panel se download ki hui original PDF upload karo, preview check karo aur cropped PDF download karo. Poori guide Hinglish mein yahan hai: [Meesho ka Label Cropper Kaise Kare](https://croplabelfree.online/blog/hinglish/meesho-label-cropper-kaise-kare).
+
+### A practical example
+Example: a seller downloads two Meesho label PDFs with 18 and 22 labels. They add both files, tick Group labels by SKU and crop. The result is one PDF with 40 pages, named Labels_Meesho_40.pdf, with same-SKU labels together and a picklist such as "KURTI-BLUE-M 6". Before printing, they open the preview and check pages from the start, middle and end for a complete barcode and address block.
+
+### Common mistakes and fixes
+- Selecting Flipkart for a Meesho file: the detector looks for the wrong text and falls back to a fixed crop area. Select Meesho and crop again.
+- Uploading a screenshot or a scanned copy: no text means no detection. Download the original PDF again.
+- Skipping the preview: check several pages, not only the first. If the tool reports pages it could not detect, adjust the crop area under Advanced crop settings.
+- Expecting a perfect 4x6 page: set the 4x6 paper size and scaling in the print dialog, then test one label.
+
+### FAQ
+**Is there a limit on how many Meesho labels I can crop?**
+The tool does not apply its own label limit, but everything runs in your browser, so very large batches depend on your device's memory. If the page slows down, crop in smaller batches.
+
+**Do I need an account to use the Meesho label cropper?**
+No. There is no sign-up and no watermark on the cropped PDF.
+
+**Can I use the cropper for the Meesho invoice?**
+The tool crops the label area, so the invoice is not visible in the output. Keep your original PDF if you need the invoice.
+
+## How to Convert a Meesho PDF Label Into 4x6 Format
+URL: https://croplabelfree.online/blog/meesho-pdf-to-4x6-label
+
+LabelCrop does not convert a Meesho PDF into an exact 4x6 page. It crops the label out of the original page and keeps that label's own size, and you then choose 4x6 (100x150 mm) paper and the scaling in your print dialog. This guide shows the steps and the checks that matter. Start with the [Meesho label cropper](https://croplabelfree.online/meesho-label-cropper).
+
+### Why a Meesho PDF is not 4x6 to begin with
+A Meesho label PDF is a full page. The shipping label is the top block, and the tax invoice sits underneath it. Printing the page as it is wastes most of the paper, which is why sellers crop it first.
+
+### Steps: crop first, then print at 4x6
+1. Crop the file in the [Meesho label cropper](https://croplabelfree.online/meesho-label-cropper) and download the cropped PDF.
+2. Open the PDF in a PDF viewer and look at its page size in the document properties. This is the size you are printing from.
+3. In the print dialog choose your printer and set paper size to 4x6 in (100x150 mm). If the size is missing, add a custom size in the printer driver.
+4. Set margins to None or Minimum and turn off headers and footers.
+5. Choose the scaling: Actual size if the label fits the page, or Fit to page if it does not. Check the orientation too.
+6. Print only page 1, check all edges and scan the barcode, and only then print the batch.
+
+### What size is the cropped Meesho label?
+In the layout this tool is built for, the Meesho label is wider than it is tall, roughly 8 by 4.7 inches. A 4x6 roll is portrait, so the label may need to be rotated, and it will be scaled down to fit. A smaller print means a smaller barcode, which is why testing one label matters.
+These sizes come from the layout the detector was measured on. Meesho can change its PDF layout, so trust the page size you see in your own cropped file.
+
+### How to remove the invoice from a Meesho shipping label PDF
+The tool has no button that deletes the invoice. Cropping does the job visually: each page is cut down to the label area, so the invoice below it does not show in the output.
+On supported pages the label's bottom edge is found from the "TAX INVOICE" heading, or from "Product Details" if that heading is missing, so the invoice stays out of the crop.
+- The crop hides the rest of the page, it does not erase it. The new file still contains the original page content, clipped to the label. Do not use it to redact an invoice before sharing the file; use a PDF tool that removes content for that.
+- Your original PDF is not changed, and the invoice is not saved anywhere separately. Keep the original if you need the invoice.
+- Every page is cropped. If your PDF has pages that are not labels, remove them with a PDF tool you trust before cropping, or they will appear in the output.
+- If a page is not detected, a fixed fallback area is used. Check the preview for any part of the invoice or a clipped label.
+
+### A practical example
+Example: a seller crops a 25-page Meesho PDF and downloads Labels_Meesho_25.pdf. The viewer shows landscape pages. In the print dialog they pick 4x6, Fit to page, margins None, and print page 1. The barcode scans, so they print the other 24. Had it failed, they would raise print darkness before changing anything else.
+
+### Common mistakes and fixes
+- Printing with default margins: set margins to None or Minimum.
+- Choosing A4 paper for a 4x6 roll: the label prints tiny. Match the paper size to the roll.
+- Assuming the output is already 4x6: check the page size and scaling.
+- Printing the whole batch before a test: print and scan one label first.
+
+### FAQ
+**Can LabelCrop make the Meesho label exactly 100x150 mm?**
+No. It keeps the cropped label's own size and does not stretch or resize it. Use your print dialog's paper size and scaling to fit the label onto 4x6 stock.
+
+**Will the invoice still be in my original PDF?**
+Yes. Cropping creates a new PDF and never edits the one you uploaded.
+
+**What if part of the invoice shows in my crop?**
+The page was probably not detected and used the fallback area. Check the undetected count after cropping, then adjust Left, Top, Width and Height under Advanced crop settings and crop again.
+
+## How to Crop Multiple Meesho Shipping Labels at Once
+URL: https://croplabelfree.online/blog/meesho-bulk-label-cropping
+
+To crop multiple Meesho shipping labels at once, add all your Meesho label PDFs to the tool in one go. Every page of every file is cropped and the labels are merged into a single PDF. The [Meesho label cropper](https://croplabelfree.online/meesho-label-cropper) supports this, with one limit: only one marketplace per run.
+
+### Steps to crop many Meesho labels together
+1. Open the [Meesho label cropper](https://croplabelfree.online/meesho-label-cropper) and select Meesho.
+2. Select several PDFs in the file picker, or drag them in together. You can also add files in several rounds. Each file appears in the list, and you can remove one with the bin icon.
+3. Keep auto-detect on. Tick "Group labels by SKU" if you want same-SKU labels next to each other.
+4. Press Crop Labels. All labels are merged into one PDF, shown in the preview.
+5. Download the PDF and copy the SKU picklist if you want a packing list.
+
+### What the batch output looks like
+- One PDF with one page per label, named Labels_Meesho_<count>.pdf.
+- Without SKU grouping, pages follow the order of your files and their pages.
+- With SKU grouping, pages are sorted by SKU text and the picklist lists each SKU with its quantity. A label whose SKU cannot be read is listed as UNKNOWN.
+
+### How to download Meesho shipping labels from Supplier Panel
+Label Cropper cannot download labels from Meesho and we do not describe the Supplier Panel menus, because they can change and we cannot verify them here. Use the label download option in your Meesho supplier account and follow Meesho's own current help for the exact steps.
+What matters for cropping is the file you end up with:
+- It should be the original label PDF, not a screenshot, photo or print-to-PDF of a screenshot.
+- It should be unlocked. A password-protected PDF cannot be read.
+- Keep Meesho files separate from Flipkart files.
+- If you download in several batches, add all the files to the tool together.
+
+### Check a large batch before you print
+Open the preview and look at pages from the start, middle and end. If the tool says labels were not detected on some pages, those used the fallback area, so check them closely. Make sure the page count matches the number of orders you expected.
+
+### If your browser slows down
+Everything runs on your device, so very large batches depend on its memory. If the page becomes slow, crop in two or three smaller batches and print them one after another.
+
+### A practical example
+Example: a seller has three Meesho PDFs from one day, with 12, 30 and 8 labels. They add all three, tick Group labels by SKU and crop. The output is Labels_Meesho_50.pdf. The preview shows 50 pages, same-SKU labels sit together and the picklist gives quantities for packing.
+
+### Common mistakes and fixes
+- Mixing Meesho and Flipkart files: crop them in separate runs with the right marketplace selected.
+- Cropping edited or merged PDFs: use original files where you can. Scaled merged files may still work, but check every page.
+- Not checking the page count: compare it with your order count.
+
+### FAQ
+**Can I add more PDFs after the first ones?**
+Yes. Files are added to the list each time, until you press Crop Labels.
+
+**Are the labels sorted automatically?**
+Only if you tick Group labels by SKU. Otherwise the order of your files is kept.
+
+**Does bulk cropping upload my files?**
+No. All files are processed in your browser.
+
+## Free Flipkart Label Crop and Sort Tool Online: How It Works
+URL: https://croplabelfree.online/blog/flipkart-label-cropper-guide
+
+A free online tool to crop and sort Flipkart labels is the [Flipkart label cropper](https://croplabelfree.online/flipkart-label-cropper) on this site. It crops each Flipkart label page in your browser, can group the labels by SKU and shows a SKU picklist you can copy. There is no sign-up and no watermark. This guide explains exactly what "sort" means here.
+
+### What the tool crops
+It finds the Flipkart label on each page by looking for the "Not for resale" text and crops to the label box. The invoice below the label is not visible in the cropped pages. The original text and barcodes are carried into the new PDF without resizing.
+
+### How sorting by SKU works
+1. Select Flipkart and add one or more Flipkart label PDFs.
+2. Tick "Group labels by SKU".
+3. Press Crop Labels. The cropped pages are ordered by SKU text, so labels of the same SKU are together.
+4. Use the SKU picklist shown after cropping and press Copy picklist to paste the SKU and quantity list elsewhere.
+
+### What it cannot sort
+- It sorts by SKU only, not by courier, order date, pincode or product size.
+- It needs readable SKU text in the PDF. If it cannot find one, the label is listed as UNKNOWN but is still cropped.
+- It cannot mix marketplaces in one run.
+- It does not resize labels to 4x6. See [Flipkart PDF to 4x6](https://croplabelfree.online/blog/flipkart-pdf-to-4x6-label).
+
+### Flipkart ka label cropper kaise kare? (Hinglish)
+Tool mein Flipkart select karo, seller panel se download ki hui label PDF upload karo aur Crop Labels dabao. Agar SKU ke hisaab se order chahiye to "Group labels by SKU" tick karo. Preview mein barcode aur address check karke cropped PDF download karo. Poori Hinglish guide: [Flipkart ka Label Cropper Kaise Kare](https://croplabelfree.online/blog/hinglish/flipkart-label-cropper-kaise-kare).
+
+### A practical example
+Example: a seller adds two Flipkart PDFs and ticks Group labels by SKU. The picklist reads "MUG-WHITE 14", "MUG-BLACK 9" and "UNKNOWN 1". The UNKNOWN label is a page where the SKU text could not be read, so they check that one by hand in the preview before packing.
+
+### Common mistakes and fixes
+- Expecting a courier-wise sort: sort and pack by courier yourself after cropping.
+- Ignoring UNKNOWN entries: open the preview and identify those orders manually.
+- Using an edited or screenshot PDF: download the original label PDF again.
+
+### FAQ
+**Does sorting change which labels are in the PDF?**
+No. Sorting only changes the order of the pages. The number of labels is the same.
+
+**Can I copy the picklist?**
+Yes. Press Copy picklist after cropping. It copies each SKU and its quantity.
+
+**Is the Flipkart label cropper really free?**
+Yes. It is free to use, with no sign-up and no watermark.
+
+## How to Convert a Flipkart Shipping Label PDF Into 4x6
+URL: https://croplabelfree.online/blog/flipkart-pdf-to-4x6-label
+
+LabelCrop does not convert a Flipkart label PDF into an exact 4x6 page. It crops the label out of the page and keeps the label's own size, which in the layout the tool handles is a portrait label of roughly 3 by 5 inches. You then choose 4x6 (100x150 mm) paper and scaling when printing. Start with the [Flipkart label cropper](https://croplabelfree.online/flipkart-label-cropper).
+
+### Steps: crop, then fit to 4x6
+1. Crop the PDF with the [Flipkart label cropper](https://croplabelfree.online/flipkart-label-cropper) and download it.
+2. Open the cropped PDF and note its page size in the document properties.
+3. In the print dialog set paper size to 4x6 in (100x150 mm). If it is missing, add a custom size in the printer driver.
+4. Set margins to None or Minimum.
+5. Pick the scaling. A label of about 3 x 5 inches is smaller than 4x6, so Actual size leaves white space and Fit to page enlarges it slightly. Either is fine if the barcode scans.
+6. Print one label first, check all edges and scan it, then print the rest.
+
+### Why the size is not exactly 4x6
+The crop follows the label box on the Flipkart page, with a small safety margin. It is not stretched to a fixed paper size, because stretching can distort the barcode. The sizes above come from the layout the detector was measured on and can change if Flipkart changes its PDF, so rely on your own file's page size.
+
+### How to remove the invoice from a Flipkart shipping label
+There is no delete-invoice button. The crop shows only the label area, so the invoice beneath it does not appear in the output.
+- The crop hides the rest of the page, it does not erase it. The new file still contains the original page content, clipped to the label. Do not use it to redact an invoice before sharing the file.
+- The original PDF is unchanged, and the invoice is not saved separately.
+- Every page is cropped. If your file contains non-label pages, remove them first with a PDF tool you trust.
+- If the result says some pages were not detected, those pages used the fallback area. Check them in the preview.
+
+### A practical example
+Example: a seller crops a 40-page Flipkart PDF and downloads Labels_Flipkart_40.pdf. They print at 4x6, margins None, Fit to page. The label fills the roll and the barcode scans on page 1, so they print the rest.
+
+### Common mistakes and fixes
+- Choosing A4 paper for a 4x6 roll: the label prints tiny. Match paper size to the roll.
+- Leaving default margins: set None or Minimum.
+- Skipping the test label: always scan one first.
+
+### FAQ
+**Does the Flipkart label crop include the invoice?**
+No. The output shows the label area only. Your original file still has the invoice, and the cropped file still holds the clipped page data, so it is not a redaction.
+
+**Can the tool enlarge the label to fill 4x6?**
+No. Scaling is done in your print dialog. Test the barcode after scaling.
+
+**What if the label is clipped?**
+Check the undetected count after cropping. Adjust Left, Top, Width and Height under Advanced crop settings, crop again and re-check the preview.
+
+## How to Print Flipkart Labels on a Thermal Printer
+URL: https://croplabelfree.online/blog/flipkart-thermal-printer-guide
+
+To print Flipkart labels on a thermal printer, crop the label PDF first, then print the cropped PDF with the paper size set to 4x6 (100x150 mm), margins at None or Minimum and the scaling checked. Always print and scan one label before the rest. Crop your file in the [Flipkart label cropper](https://croplabelfree.online/flipkart-label-cropper).
+
+### Steps
+1. Crop and download the PDF from the [Flipkart label cropper](https://croplabelfree.online/flipkart-label-cropper).
+2. Open it in a PDF viewer and press Print.
+3. Select your thermal printer and set paper size to 4x6 in (100x150 mm), or create that custom size in the driver.
+4. Check that the media type matches your roll, for example labels with gaps.
+5. Set margins to None or Minimum and turn off headers and footers.
+6. Choose scaling (see below), print page 1 only and scan the barcode.
+7. If it passes, print the remaining pages.
+
+### Choosing the scaling
+- Actual size keeps the original proportions, which suits barcodes. The label (about 3 x 5 inches in the supported layout) will sit on the 4x6 page with some space around it.
+- Fit to page enlarges the label to fill more of the page. Use it if you want a larger print, then re-test the scan.
+- Avoid anything that squeezes the label into a different shape.
+
+### About printer compatibility
+We cannot test every thermal printer, so we do not claim that any specific model works. The steps above are generic. Driver names and options vary, so run the one-label test on your own printer, and save a printer preset once it works.
+
+### A practical example
+Example: a seller crops 60 labels and opens Labels_Flipkart_60.pdf. With paper 4x6, margins None and Actual size they print page 1. The barcode scans on the first try, so they print pages 2 to 60 in one go.
+
+### Common mistakes and fixes
+- Prints are faint: raise print darkness and clean the print head.
+- Label is cut off: set margins to None and check the paper size.
+- Label is tiny: the paper size is probably A4. Choose 4x6.
+- Label prints on two labels: the paper size or media setting does not match the roll.
+
+### FAQ
+**Can I print the cropped Flipkart PDF on an A4 printer?**
+Yes, any printer can print a PDF. Keep scaling close to 100% and scan-test one label. See [printing on A4 paper](/blog/how-to-print-shipping-labels-on-a4-paper).
+
+**My barcode will not scan after printing. What now?**
+Check scaling, print darkness, the print head and the scanner. The steps are in [shipping label barcode quality](/blog/shipping-label-barcode-quality).
+
+**Does LabelCrop connect to my printer?**
+No. It creates the PDF. You print it from your PDF viewer or browser using your normal print dialog.
+
+## How to Crop Multiple Flipkart Shipping Labels Together
+URL: https://croplabelfree.online/blog/flipkart-bulk-label-cropping
+
+To crop multiple Flipkart shipping labels together, add all your Flipkart label PDFs in one run. Every page of every file is cropped and the labels are merged into one PDF. Open the [Flipkart label cropper](https://croplabelfree.online/flipkart-label-cropper) to try it.
+
+### Steps
+1. Open the [Flipkart label cropper](https://croplabelfree.online/flipkart-label-cropper) and select Flipkart.
+2. Choose several PDFs in the file picker or drag them in. You can add more files in further rounds, and remove one with the bin icon.
+3. Keep auto-detect on. Tick "Group labels by SKU" if you want same-SKU labels together.
+4. Press Crop Labels, check the preview and download the merged PDF, named like Labels_Flipkart_50.pdf.
+5. Copy the SKU picklist if you need a packing list.
+
+### Rules for a mixed batch
+- One marketplace per run. Flipkart and Meesho files must be cropped separately.
+- Original label PDFs work best. Scanned copies have no text to detect.
+- Every page is cropped, so remove non-label pages from the files first.
+
+### Check before printing
+Look at pages from the start, middle and end of the preview and compare the page count with your orders. If some pages were reported as undetected, they used the fallback area, so check them closely.
+
+### A practical example
+Example: a seller exports labels in two batches, 25 and 35 pages. They add both PDFs, tick Group labels by SKU and press Crop Labels. The output has 60 pages, and the picklist shows how many of each SKU to pack.
+
+### Common mistakes and fixes
+- Mixing marketplaces: run each marketplace separately.
+- Very large batches that slow the browser: crop in smaller batches.
+- Not checking the count: compare pages with orders.
+
+### FAQ
+**Is there a fixed limit on the number of Flipkart labels?**
+The tool sets no label limit of its own, but processing happens in your browser, so very large batches depend on your device's memory.
+
+**Do the labels keep their original order?**
+Yes, unless you tick Group labels by SKU, which sorts them by SKU text.
+
+## How to Crop a Shipping Label PDF Without Losing Barcode Quality
+URL: https://croplabelfree.online/blog/shipping-label-barcode-quality
+
+To crop a shipping label PDF without losing barcode quality, use a cropper that cuts the original page instead of turning it into a picture. Label Cropper copies the chosen area of the original page without resizing it, so the barcode is as sharp as it was in your file. Most quality loss then happens when printing. The checks below cover both.
+
+### What Label Cropper does to the barcode
+- It places the cropped area of the original page into a new PDF. It does not re-draw the page as a low-resolution image.
+- The output page is exactly the cropped size, with no scaling.
+- If a barcode is vector in your file it stays vector, and if it is an image it stays that image, untouched.
+- It cannot make a poor original barcode better, and nobody can promise that every barcode will scan on every printer.
+
+### How to keep the quality
+1. Start from the original label PDF, not a screenshot or a photo.
+2. Crop in the [Meesho](https://croplabelfree.online/meesho-label-cropper) or [Flipkart](https://croplabelfree.online/flipkart-label-cropper) cropper and check the preview. The barcode must be complete, with its quiet space around it.
+3. Print at Actual size or 100% where you can. If you must fit to the paper, test the scan.
+4. Do not use draft print mode. Raise the darkness if the bars look thin.
+5. Print one label and scan it before the batch.
+
+### Meesho shipping label ka barcode blur kyu hota hai? (Hinglish)
+Crop karne se barcode blur nahi hota, kyunki tool original text aur barcode ko dobara draw ya resize nahi karta. Blur aksar in karanon se aata hai: print mein page ko zyada chhota ya bada scale karna, draft ya low print quality, kam darkness, dirty print head, ya screen par kam zoom mein dekhna.
+Agar original Meesho PDF ka barcode hi low-quality image hai, to crop use behtar nahi bana sakta. Aise mein PDF dobara download karo. Pehle ek label print karke scan karo, phir baaki print karo.
+
+### Flipkart shipping label barcode scan nahi ho raha, kya kare? (Hinglish)
+1. Dekho ki barcode poora print hua hai aur kisi side se kata nahi hai. Agar kata hai to margins None rakho aur preview mein crop check karo.
+2. Scaling 100% ya Actual size ke paas rakho. Zyada chhota ya bada print scan mein dikkat deta hai.
+3. Print darkness ya quality ek step badhao aur dobara print karo.
+4. Thermal printer ka head saaf karo aur roll sahi tarah se lagi hai ye check karo.
+5. Alag scanner ya app se scan karke dekho, taaki pata chale ki problem scanner mein to nahi.
+6. Agar phir bhi na chale, to original PDF dobara download karo, crop karo aur ek label test print karo.
+
+### A practical example
+Example: a seller's Flipkart barcode failed to scan. The label was printed with "Shrink to printable area", so it came out at about 80%. After switching to Actual size, raising darkness a step and cleaning the head, the barcode scanned.
+
+### Common mistakes and fixes
+- Cropping a screenshot: the barcode is already a low-resolution picture. Use the original PDF.
+- Fit to page on a mismatched paper size: match the paper size to the roll.
+- Folding or taping over the barcode: keep it flat and clear.
+- Judging by screen zoom: a barcode looks soft at low zoom, so test the print.
+
+### FAQ
+**Does the crop resample the PDF?**
+No. The cropped area is copied from the original page without resizing, and image streams are not changed.
+
+**Can you guarantee my barcode will scan?**
+No. Scanning depends on your original file, printer, label stock and scanner. Always scan-test one label first.
+
+**Should I use A4 or 4x6 for the best scan?**
+The paper size that matches your stock, with scaling close to 100%. See [printing on a 4x6 thermal printer](/blog/print-shipping-labels-on-4x6-thermal-printer).
+
+## What Is the Best 4x6 Shipping Label Cropper for Thermal Printers?
+URL: https://croplabelfree.online/blog/4x6-thermal-label-cropper-guide
+
+There is no single best 4x6 label cropper for everyone, and we cannot verify claims about other tools. What you can do is check a cropper against the points below. Label Cropper is built for Meesho and Flipkart labels and meets some of them, but not all, and this guide says which.
+
+### A checklist for a 4x6 thermal label cropper
+1. Does it support your marketplace's current label layout?
+2. Does it crop the original page instead of re-rendering it into an image, so barcodes stay sharp?
+3. Does it show a preview before you print?
+4. Does it tell you when it could not detect a label on a page?
+5. Is it clear about the output size, rather than just saying "4x6"?
+6. Does it keep your files on your device, or explain what it uploads?
+7. Is it free of watermarks?
+
+### How Label Cropper scores on these points
+- Marketplaces: Meesho and Flipkart only, with automatic label detection and a manual crop area.
+- Quality: crops the original page without resizing, so original text and barcodes are kept.
+- Preview: yes, in your browser's PDF viewer.
+- Detection report: yes, it tells you how many pages used the fallback area.
+- Privacy: files are processed in your browser and not uploaded.
+- Price: free, no sign-up, no watermark.
+
+### What it does not do for 4x6
+- It does not resize the output to an exact 4x6 page. The page has the label's own size, and you set 4x6 paper and scaling in the print dialog.
+- It does not place several labels on one sheet.
+- It does not support other marketplaces.
+- It does not talk to your printer. It makes the PDF you print.
+
+### A practical example
+Example: a seller with a 4x6 thermal printer wants Flipkart and Meesho labels on one roll. They crop the Flipkart PDF in one run and the Meesho PDF in another, set the 4x6 paper size, test one label from each and print. If they needed exact 4x6 output pages, they would need a different tool for that step.
+
+### Common mistakes and fixes
+- Choosing a tool by the "4x6" claim alone: check what size it really outputs.
+- Skipping the printer test: scan one label first.
+- Using a screenshot as input: use the original PDF.
+
+### FAQ
+**Does Label Cropper output exactly 4x6 pages?**
+No. It keeps the cropped label's own size. You choose 4x6 paper and scaling when printing.
+
+**Which printers does it work with?**
+It creates a normal PDF that any printer can print. We do not claim compatibility with specific thermal printer models, so test one label on yours.
+
+**Where do I start?**
+Pick your marketplace: [Meesho label cropper](/meesho-label-cropper) or [Flipkart label cropper](/flipkart-label-cropper).
+
+## Guides in other languages
+- Shipping Label Cropper Guides (Hinglish): https://croplabelfree.online/blog/hinglish
+- शिपिंग लेबल क्रॉपर गाइड (हिन्दी): https://croplabelfree.online/blog/hi
+- শিপিং লেবেল ক্রপার গাইড (বাংলা): https://croplabelfree.online/blog/bn
+- शिपिंग लेबल क्रॉपर मार्गदर्शक (मराठी): https://croplabelfree.online/blog/mr
+- షిప్పింగ్ లేబుల్ క్రాపర్ గైడ్‌లు (తెలుగు): https://croplabelfree.online/blog/te
+- ஷிப்பிங் லேபிள் க்ராப்பர் வழிகாட்டிகள் (தமிழ்): https://croplabelfree.online/blog/ta
+- શિપિંગ લેબલ ક્રોપર માર્ગદર્શિકાઓ (ગુજરાતી): https://croplabelfree.online/blog/gu
+- ಶಿಪ್ಪಿಂಗ್ ಲೇಬಲ್ ಕ್ರಾಪರ್ ಮಾರ್ಗದರ್ಶಿಗಳು (ಕನ್ನಡ): https://croplabelfree.online/blog/kn
+- ഷിപ്പിംഗ് ലേബൽ ക്രോപ്പർ ഗൈഡുകൾ (മലയാളം): https://croplabelfree.online/blog/ml
+- ਸ਼ਿਪਿੰਗ ਲੇਬਲ ਕ੍ਰੌਪਰ ਗਾਈਡਾਂ (ਪੰਜਾਬੀ): https://croplabelfree.online/blog/pa
+- ସିପିଂ ଲେବଲ୍ କ୍ରପର୍ ଗାଇଡ୍ (ଓଡ଼ିଆ): https://croplabelfree.online/blog/or
+- শ্বিপিং লেবেল ক্ৰপাৰ গাইড (অসমীয়া): https://croplabelfree.online/blog/as
+- شپنگ لیبل کراپر گائیڈز (اردو): https://croplabelfree.online/blog/ur

@@ -2,7 +2,7 @@
   "name": "label-cropper-client",
   "private": true,
   "type": "module",
-  "scripts": { "dev": "vite", "build": "vite build && node prerender.mjs", "preview": "vite preview" },
+  "scripts": { "dev": "vite", "build": "vite build && node prerender.mjs", "preview": "vite preview", "llms": "node scripts/generate-llms.mjs" },
   "dependencies": {
     "pdf-lib": "^1.17.1",
     "pdfjs-dist": "^4.4.168",

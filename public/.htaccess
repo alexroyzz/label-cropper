@@ -1,0 +1,39 @@
+# Hostinger (Apache/LiteSpeed) config for the prerendered static build.
+# Vite copies this file from public/ to dist/ so it ships with every build.
+# Every route is prerendered to dist/<route>/index.html, so no catch-all rewrite is needed.
+
+Options -MultiViews
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Optional: force HTTPS. Uncomment only if the hPanel "Force HTTPS" toggle is off.
+  # RewriteCond %{HTTPS} off
+  # RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
+
+  # Keep canonical URLs without a trailing slash: /blog/ -> /blog
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+  # Serve prerendered routes (/meesho-label-cropper -> /meesho-label-cropper/index.html) without a redirect
+  RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+  RewriteRule ^(.+?)/?$ /$1/index.html [L]
+</IfModule>
+
+# Unknown URLs return a real 404 status but still show the app shell.
+# For a client-only SPA route in future, replace with: FallbackResource /index.html
+ErrorDocument 404 /index.html
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml application/xml application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 hour"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+</IfModule>
